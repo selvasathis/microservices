@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: "shoe"
-        image:  naresh2603/spring:v2
+        image:  thendralsathis/shoes:latest
         ports:
         - containerPort:  1002
           name: "shoe"
