@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: "offer"
-        image:  naresh2603/python:v1
+        image:  thendralsathis/wishlist:latest
         ports:
         - containerPort:  5000
           name: "wishlist"
